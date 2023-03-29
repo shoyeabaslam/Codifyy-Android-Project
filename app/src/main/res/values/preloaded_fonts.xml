@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/adamina</item>
+        <item>@font/aladin</item>
+        <item>@font/amethysta</item>
+        <item>@font/amiri</item>
+        <item>@font/arapey</item>
+        <item>@font/arizonia</item>
+        <item>@font/asar</item>
+        <item>@font/average_sans</item>
+        <item>@font/bellefair</item>
+        <item>@font/caveat</item>
+        <item>@font/crimson_text</item>
+        <item>@font/dhurjati</item>
+        <item>@font/emblema_one</item>
+        <item>@font/noto_serif</item>
+        <item>@font/ramaraja</item>
+    </array>
+</resources>

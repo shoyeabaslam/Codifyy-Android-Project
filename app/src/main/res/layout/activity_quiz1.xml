@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuizPackage.QuizActivity1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/quiz_bg">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical">
+
+            <ProgressBar
+                android:id="@+id/simpleProgressBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="10dp"
+                android:max="100"
+                android:progress="45"
+                android:scaleY="2"
+                android:progressBackgroundTint="@color/black"
+                android:progressTint="@color/app_color" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                app:cardCornerRadius="25dp"
+                android:layout_marginTop="5dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/gradient4"
+                    android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/question_number"
+                            android:layout_width="match_parent"
+                            android:gravity="end"
+                            android:layout_marginEnd="20dp"
+                            android:textStyle="bold"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/ramaraja"
+                            android:text="01/100"
+                            android:paddingLeft="8dp"
+                            android:textSize="22sp" />
+
+
+                    <TextView
+                        android:id="@+id/question"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:autoSizeMaxTextSize="20sp"
+                        android:autoSizeMinTextSize="10sp"
+                        android:autoSizeTextType="uniform"
+                        android:fontFamily="@font/crimson_text"
+                        android:gravity="center"
+                        android:text="question"
+                        android:textAlignment="center"
+                        android:padding="5dp"
+                        android:textAllCaps="true"
+                        android:textColor="#CD0808"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="5dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:id="@+id/op1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/gradient4"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/op1text"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:autoSizeMaxTextSize="18dp"
+                        android:autoSizeMinTextSize="10dp"
+                        android:autoSizeTextType="uniform"
+                        android:fontFamily="@font/crimson_text"
+                        android:gravity="center"
+                        android:text="option"
+                        android:padding="5dp"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="5dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:id="@+id/op2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/gradient4"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/op2text"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:autoSizeMaxTextSize="18dp"
+                        android:autoSizeMinTextSize="10dp"
+                        android:autoSizeTextType="uniform"
+                        android:fontFamily="@font/crimson_text"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="option"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="5dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:id="@+id/op3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/gradient4"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/op3text"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:autoSizeMaxTextSize="18dp"
+                        android:autoSizeMinTextSize="10dp"
+                        android:autoSizeTextType="uniform"
+                        android:fontFamily="@font/crimson_text"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="option"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="5dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:id="@+id/op4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/gradient4"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/op4text"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:autoSizeMaxTextSize="18dp"
+                        android:autoSizeMinTextSize="10dp"
+                        android:autoSizeTextType="uniform"
+                        android:fontFamily="@font/crimson_text"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="option"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:onClick="submit"
+                    app:cardCornerRadius="15dp"
+                    app:cardBackgroundColor="@color/app_color"
+                    app:cardElevation="10dp"
+                    app:cardUseCompatPadding="true">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/ramaraja"
+                        android:gravity="center"
+                        android:text="Submit"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/next"
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:onClick="next"
+                    app:cardCornerRadius="15dp"
+                    app:cardBackgroundColor="@color/app_color"
+                    app:cardElevation="10dp"
+                    app:cardUseCompatPadding="true">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/ramaraja"
+                        android:gravity="center"
+                        android:text="next"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".videosview.PlayYoutubeVideo.PlayingYoutubeVideo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="#EB2758"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/goback"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/back" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:fontFamily="@font/crimson_text"
+                android:gravity="center_vertical"
+                android:text="videos"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <com.google.android.youtube.player.YouTubePlayerView
+            android:id="@+id/youtubePlayerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/preButton"
+                android:layout_width="120dp"
+                android:backgroundTint="@color/app_color"
+                android:textColor="@color/white"
+                android:layout_height="60dp"
+                android:text="previous" />
+
+            <Button
+                android:id="@+id/nextButton"
+                android:layout_width="120dp"
+                android:layout_height="60dp"
+                android:backgroundTint="@color/app_color"
+                android:textColor="@color/white"
+                android:layout_marginLeft="80dp"
+                android:text="next" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/videoNumberId"
+                android:layout_width="160dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:hint="VIDEO NO."
+                android:inputType="number" />
+
+            <Button
+                android:id="@+id/jumpButton"
+                android:layout_width="120dp"
+                android:layout_height="60dp"
+                android:backgroundTint="@color/app_color"
+                android:textColor="@color/white"
+                android:layout_marginLeft="50dp"
+                android:text="jump" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:text="current video number"
+            android:fontFamily="@font/crimson_text"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/currentVideoNumber"
+            android:layout_width="match_parent"
+            android:text="00/00"
+            android:textColor="@color/black"
+            android:fontFamily="@font/crimson_text"
+            android:textSize="80sp"
+            android:gravity="center"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

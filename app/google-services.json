@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "236395620195",
+    "project_id": "codifyy-e5502",
+    "storage_bucket": "codifyy-e5502.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236395620195:android:8f6d3fbb5dce2438a35556",
+        "android_client_info": {
+          "package_name": "com.example.codifyy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "236395620195-1he663tg2iut27bg9ogu2hp8t79rl6pu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBowY81sqZIP5Vi7svWEBglWjLWxfLGCNA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "236395620195-1he663tg2iut27bg9ogu2hp8t79rl6pu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="108dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="70dp"
+        android:fontFamily="@font/emblema_one"
+        android:padding="7dp"
+        android:text="CODIFYY"
+        android:textAllCaps="false"
+        android:textColor="#EB2758"
+        android:textSize="80dp"
+        app:autoSizeTextType="uniform"
+        app:autoSizeMinTextSize="12sp"
+        app:autoSizeMaxTextSize="100sp"
+        app:autoSizeStepGranularity="2sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/arizonia"
+        android:gravity="center"
+        android:text="Start Learning"
+        android:textColor="#EB2758"
+        android:textSize="45dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       >
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottieView"
+            android:layout_width="wrap_content"
+            android:layout_height="350dp"
+            app:lottie_rawRes="@raw/startinganimation"
+            app:lottie_loop="true"
+            android:layout_centerInParent="true"
+            app:lottie_autoPlay="true"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/loadingAnimationView"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:alpha="0"
+                android:layout_gravity="center"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/loadinganimation" />
+
+            <TextView
+                android:id="@+id/loadingtxtId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:alpha="0"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text="Loading..."
+                android:textSize="30dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/introCardViewId"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                app:cardElevation="10dp"
+                app:cardCornerRadius="15dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:onClick="goToDashBoard"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:src="@drawable/google" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/ramaraja"
+                        android:gravity="center"
+                        android:textColor="@color/app_color"
+                        android:text="Sign in with Google"
+                        android:textSize="30sp" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

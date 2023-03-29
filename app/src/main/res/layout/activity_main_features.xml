@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="end"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainFeaturesPackage.MainFeatures">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#eb2758"
+        android:orientation="horizontal">
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbarid"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            app:title="Dashboard"/>
+
+
+    </LinearLayout>
+        <ScrollView
+            android:layout_below="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:elevation="8dp"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                    <com.smarteist.autoimageslider.SliderView
+                        android:id="@+id/sliderViewId"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        app:sliderAnimationDuration="600"
+                        app:sliderAutoCycleDirection="back_and_forth"
+                        app:sliderAutoCycleEnabled="true"
+                        app:sliderIndicatorAnimationDuration="600"
+                        app:sliderIndicatorGravity="center_horizontal|bottom"
+                        app:sliderIndicatorMargin="15dp"
+                        app:sliderIndicatorOrientation="horizontal"
+                        app:sliderIndicatorPadding="3dp"
+                        app:sliderIndicatorRadius="2dp"
+                        app:sliderIndicatorSelectedColor="#eb2758"
+                        app:sliderIndicatorUnselectedColor="#FFF"
+                        app:sliderScrollTimeInSec="2"
+                        app:sliderStartAutoCycle="true">
+
+                        <ProgressBar
+                            android:id="@+id/sliderLoadingProgressBar"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:indeterminateTint="@color/app_color" />
+                    </com.smarteist.autoimageslider.SliderView>
+            </LinearLayout>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardElevation="10dp"
+                app:cardCornerRadius="5dp"
+                app:cardUseCompatPadding="true">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/features_recyclerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="10dp" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Top Courses"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:paddingLeft="20dp"
+                android:fontFamily="@font/crimson_text"
+                android:textColor="@color/app_color"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_recommendation"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"/>
+
+        </LinearLayout>
+
+
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navId"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:menu="@menu/navigation_menu"
+        app:headerLayout="@layout/navigation_header"
+        android:layout_gravity="start"
+        app:itemIconSize="45dp"
+        app:itemVerticalPadding="15dp"
+        />
+</androidx.drawerlayout.widget.DrawerLayout>
+

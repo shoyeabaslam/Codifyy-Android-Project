@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">CODIFYY</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+    <string-array name="ProgrammingListItem">
+        <item>c programing</item>
+        <item>c++ programing</item>
+        <item>python programing</item>
+        <item>java programing</item>
+        <item>php programing</item>
+        <item>data structure</item>
+        <item>html</item>
+        <item>javascript</item>
+        <item>database</item>
+        <item>cloud computing</item>
+        <item>android development</item>
+    </string-array>
+
+
+    <!--    .............Hindi links..........................-->
+    <string-array name="HindiPlaylistId">
+        <item>PLu0W_9lII9aiXlHcLx-mDH1Qul38wD3aR </item>
+        <item>PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ</item>
+        <item>PLu0W_9lII9agICnT8t4iYVSZ3eykIAOME</item>
+        <item>PLu0W_9lII9agS67Uits0UnJyrYiXhDS6q</item>
+        <item>PLu0W_9lII9aikXkRE0WxDt1vozo3hnmtR</item>
+        <item>PLu0W_9lII9ahIappRPN0MCAgtOu3lQjQi</item>
+        <item>PLfqMhTWNBTe3H6c9OGXb5_6wcc1Mca52n</item>
+        <item>PLu0W_9lII9ajyk081To1Cbt2eI5913SsL</item>
+        <item>PLrjkTql3jnm-CLxHftqLgkrZbM8fUt0vn</item>
+        <item>PLrjkTql3jnm86_Jr9195OaqN-HeiBy49I</item>
+        <item>PLu0W_9lII9aiL0kysYlfSOUgY5rNlOhUd</item>
+
+    </string-array>
+    <!--...........English link.........................-->
+    <string-array name="EnglishPlayListId">
+        <item>PLBlnK6fEyqRggZZgYpPMUxdY1CYkZtARR</item>
+        <item>PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C</item>
+        <item>PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3</item>
+        <item>PLS1QulWo1RIbfTjQvTdj8Y6yyq4R7g-Al</item>
+        <item>PLr3d3QYzkw2xabQRUpcZ_IBk9W50M9pe-</item>
+        <item>PLBlnK6fEyqRj9lld8sWIUNwlKfdUoPd1Y</item>
+        <item>PLr6-GrHUlVf_ZNmuQSXdS197Oyr1L9sPB</item>
+        <item>PLsyeobzWxl7rrvgG7MLNIMSTzVCDZZcT4</item>
+        <item>PLBlnK6fEyqRi_CUQ-FXxgzKQ1dwr_ZJWZ</item>
+        <item>PL6n9fhu94yhXEgpNSDbKBLvaYets30KQF</item>
+        <item>PLUhfM8afLE_Ok-0Lx2v9hfrmbxi3GgsX1</item>
+
+    </string-array>
+    <!--  .....................Telugu links........................-->
+    <string-array name="TeluguPlayListId">
+        <item>PLNgoFk5SYUgn5L4ocsA6FTvqKLSzp_8wF</item>
+        <item>PLC2mgeYbYNm9keJjsA95jKa4EUVLd7mQP</item>
+        <item>PLC2mgeYbYNm-3aTUq98pbmrA3P1_m-aJR</item>
+        <item>PLh6Yk2rpZu2Lyt9-2hhRj37otchec1OJL</item>
+        <item>PLC2mgeYbYNm8TRhX27z6JG0DtR8FR_WuO</item>
+        <item>PLLOxZwkBK52Akgqf4oSWPOQO9ROWS_9rc</item>
+        <item>PLLOxZwkBK52Bzp31ECPr_yk0tZfpBtGcX</item>
+
+        <item>PLv_sM9ZH4RUW_Pgz-6B0Q-YTfWvC7RVFN</item>
+        <item>PL3KKfF5A0sSLnIMTfr7bBw_wRW2vCm3T6</item>
+        <item>PLeCpoxUq3EhmgHp7KI-Ih3X2PcNYRtC5y</item>
+    </string-array>
+    <!--   ............................. on in video.........................-->
+    <string-array name="OneShotVideoId">
+        <item>KJgsSFOSQv0</item>
+        <item>GQp1zzTwrIg</item>
+        <item>gfDE2a7MKjA</item>
+        <item>CFD9EFcNZTQ</item>
+        <item>2eebptXfEvw</item>
+        <item>RBSGKlAvoiM</item>
+        <item>HcOc7P5BMi4</item>
+        <item>Qqx_wzMmFeA</item>
+        <item>fis26HvvDII</item>
+
+    </string-array>
+    <!--.............................................................-->
+
+
+</resources>
