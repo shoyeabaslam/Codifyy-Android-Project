@@ -1,6 +1,6 @@
 # Codifyy - Education App
 
-Welcome to CODIFYY, an Android application designed to help users learn and study in a fun and interactive way. This app is ideal for anyone looking to improve their knowledge and skills in various programming languages.
+Welcome to CODIFYY, an Android application designed to help users learn and study in a fun and interactive way. This app is ideal for anyone looking to improve their knowledge and skills in various programming languages. [click here to download](https://shorturl.at/mrAQY)
 
 ## Features
 Some of the features of CODIFYY App include:
@@ -32,4 +32,6 @@ If you're interested in contributing to CODIFYY App, we welcome your ideas and f
 # Output
 ![output1](https://user-images.githubusercontent.com/118368907/228627074-f3d46d12-8f45-4b8b-8e35-d6462883c8b3.png)
 ![output2](https://user-images.githubusercontent.com/118368907/228627095-1df90d64-a6f3-44ab-94fe-03e779da220b.png)
+
+## [Click here to Download the App](https://shorturl.at/mrAQY)
 
